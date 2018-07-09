@@ -32,5 +32,13 @@ namespace Brainsman.Controllers
             ViewBag.Message = "Página de cadastro";
             return View();
         }
+        public ActionResult Portifolio()
+        {
+            return View();
+        }
+        public ActionResult Login()
+        {
+            return View();
+        }
     }
 }
