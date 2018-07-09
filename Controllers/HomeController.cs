@@ -34,9 +34,15 @@ namespace Brainsman.Controllers
         }
         public ActionResult Portifolio()
         {
+            ViewBag.Message = "Portifólio";
             return View();
         }
         public ActionResult Login()
+        {
+            ViewBag.Message = "Página de Login";
+            return View();
+        }
+        public ActionResult Service()
         {
             return View();
         }

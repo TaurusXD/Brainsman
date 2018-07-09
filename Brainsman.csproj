@@ -204,6 +204,7 @@
     <Content Include="Views\Home\Cadastro.cshtml" />
     <Content Include="Views\Home\Portifolio.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\Service.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
