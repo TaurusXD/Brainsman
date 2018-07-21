@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Brainsman.Models;
 
 namespace Brainsman.Controllers
 {
@@ -27,10 +28,10 @@ namespace Brainsman.Controllers
             return View();
         }
 
+      
         public ActionResult Cadastro()
         {
-            ViewBag.Message = "Página de cadastro";
-            return View();
+            return View(); 
         }
         public ActionResult Portifolio()
         {

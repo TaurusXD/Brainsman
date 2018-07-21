@@ -163,6 +163,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\img\mercedes.jpg" />
+    <Content Include="Content\login.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -201,10 +202,10 @@
     <Content Include="Views\Produto\Produto.cshtml" />
     <Content Include="Views\Cliente\Cadastrar.cshtml" />
     <Content Include="Views\Produto\Cadastrar.cshtml" />
-    <Content Include="Views\Home\Cadastro.cshtml" />
     <Content Include="Views\Home\Portifolio.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Home\Service.cshtml" />
+    <Content Include="Views\Home\Cadastro.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

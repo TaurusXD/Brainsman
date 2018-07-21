@@ -23,3 +23,17 @@ textarea {
     max-width: 280px;
 }
 
+.form-group {
+    width: 50%;
+    margin: auto;
+    top: 50%;
+}
+
+.jumbotron {
+    width: 50%;
+    position: absolute;
+    margin: auto;
+    justify-content: center;
+    min-width: 300px;
+    padding-left: 200px;
+}

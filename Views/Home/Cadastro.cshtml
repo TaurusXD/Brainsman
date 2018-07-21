@@ -5,7 +5,10 @@
 }
 
 <h2>Cadastro</h2>
-<form>
+<div class="alert alert-danger">
+    @Html.ValidationSummary()
+</div>
+<form method="post">
     <div class="form-group">
         <label for="exampleInputEmail1">*Nome completo</label>
         <input type="text" class="form-control" id="name" placeholder="Digite seu nome" required>
