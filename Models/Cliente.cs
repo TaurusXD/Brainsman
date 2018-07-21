@@ -8,9 +8,13 @@ namespace Brainsman.Models
 {
     public class Cliente
     {
+<<<<<<< HEAD
         [Required(ErrorMessage="Nome obrigatório")]
         [StringLength(50, MinimumLength =3,ErrorMessage ="O nome deve ter, no  mínimo 3 letras.")]
         [Display(Name="Nome:")]
+=======
+        //Atributos da classe Cliente
+>>>>>>> 5eb4f68df10de74b4cf0b6bab7121d6e3d61943e
         public string nome { get; set; }
         [Required(ErrorMessage = "Idade obrigatória.")]
         [StringLength(3, MinimumLength = 1, ErrorMessage = "Idade incorreta!")]
@@ -25,11 +29,12 @@ namespace Brainsman.Models
         public string apelido { get; set; }
         public string email { get; set; }
         public string senha { get; set; }
-
+        //Construtor padrão
         public Cliente()
         {
 
         } 
+        //Construtor de classe
         public Cliente(string nome, int idade, string cpf, string apelido, string email, string senha)
         {
             this.nome = nome;
